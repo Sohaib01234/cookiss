@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="cookies.js"></script>
+
+</head>
+<body>
+    <button onclick="setCookie('username', 'user1', 7)">Set Cookie</button>
+    <button onclick="alert(getCookie('username'))">Get Cookie</button>
+    <button onclick="setCookie('username', 'user2', 7)">Update Cookie</button>
+    <button onclick="deleteCookie('username')">Delete Cookie</button>
+</body>
